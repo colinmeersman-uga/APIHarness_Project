@@ -104,8 +104,8 @@ Below is a snippet from the `api_test.log` demonstrating successful GET and POST
 
 ### Known Limitations & Future Improvements
 
-* **Limitation:** The tool currently processes requests synchronously.
+* **Limitation:** The tool currently processes requests synchronously. (Does exactly one thing at a time)
 
-* **Future Idea 1:** Implement concurrency (using `asyncio` or threading) to allow for basic load testing across multiple endpoints at once.
+* **Future Idea 1:** Implement concurrency (using `asyncio` or threading) to allow for basic load testing across multiple endpoints at once. (Make the system do a bunch of things at the same time and see if it breaks)
 
-* **Future Idea 2:** Add response validation so users can define expected status codes in the YAML file to automatically flag tests as Pass/Fail.
+* **Future Idea 2:** Add response validation so users can define expected status codes in the YAML file to automatically flag tests as Pass/Fail. (Letting the system autotest to see if it passed or failed rather than having to look through manually for the answer to see if it was correct)
