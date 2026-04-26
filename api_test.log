@@ -1,0 +1,30 @@
+2026-04-26 20:44:31,337 [INFO] Starting API Test Harness
+2026-04-26 20:44:31,339 [INFO] --- Sending GET request to https://jsonplaceholder.typicode.com/users/1 ---
+2026-04-26 20:44:31,494 [INFO] Status Code: 200
+2026-04-26 20:44:31,494 [INFO] Response Body: {
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone"...
+
+2026-04-26 20:44:31,494 [INFO] --- Sending POST request to https://jsonplaceholder.typicode.com/posts ---
+2026-04-26 20:44:31,556 [INFO] Status Code: 201
+2026-04-26 20:44:31,556 [INFO] Response Body: {
+  "title": "API Harness Test",
+  "body": "Testing our new CLI tool",
+  "userId": 1,
+  "id": 101
+}...
+
+2026-04-26 20:44:31,556 [INFO] API Test Harness execution completed.

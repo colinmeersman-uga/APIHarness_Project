@@ -1,0 +1,18 @@
+base_url: "https://jsonplaceholder.typicode.com"
+
+headers:
+  Content-Type: "application/json"
+  Authorization: "Bearer fake-token-123"
+
+endpoints:
+  - path: "/users/1"
+    method: "GET"
+  - path: "/posts"
+    method: "POST"
+    body: 
+      title: "API Harness Test"
+      body: "Testing our new CLI tool"
+      userId: 1
+      
+
+      
