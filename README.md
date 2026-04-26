@@ -1,6 +1,7 @@
 # API Test Harness
+Author: Colin Meersman
 
-A reusable and flexible command-line tool for testing REST APIs. This harness reads endpoint configurations from a YAML file, issues HTTP requests, and logs the responses for debugging and analysis.
+Purpose: A reusable and flexible command-line tool for testing REST APIs. This harness reads endpoint configurations from a YAML file, issues HTTP requests, and logs the responses for debugging and analysis.
 
 ## Features
 * **Reusable:** Define target APIs and endpoints entirely in `config.yaml` without touching the codebase.
@@ -39,7 +40,7 @@ endpoints:
 ```
 
 ### Description
-This PR introduces a reusable API Test Harness capable of reading configurations from a `config.yaml` file, executing HTTP requests (GET, POST, PUT, DELETE), and logging the results. 
+This Pull Request introduces a reusable API Test Harness capable of reading configurations from a `config.yaml` file, executing HTTP requests (GET, POST, PUT, DELETE), and logging the results. 
 
 ### Proof of Functionality
 Below is a snippet from the `api_test.log` demonstrating successful GET and POST requests to the JSONPlaceholder API:
